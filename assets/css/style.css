@@ -3,8 +3,6 @@ header {
 }
 
 h1 {
-    color: white;
-    background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 5px;
     margin-bottom: 5px;
@@ -102,20 +100,25 @@ img.icon {
 }
 
 h1.header {
+    color: white;
+    background-color: #4aaaa5;
     width: 220px;
     height: 40px;
     margin-bottom: 20px;
 }
 
 h1.article {
+    color: #4aaaa5;
     width: 100px;
     height: 30px;
 }
 
 h1.aside {
+    color: #4aaaa5;
     width: 210px;
     height: 30px;
 }
+
 nav {
     float: right;
     margin-top: 2px;

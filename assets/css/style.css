@@ -96,6 +96,7 @@ div.section {
     padding: 20px;
     margin-top: 2%;
     margin-left: 10%;
+    margin-bottom: 468px;
     background-color: white;
     border-width: 2px;
     border-style: solid;
@@ -148,9 +149,9 @@ div.aside {
     height: 150px;
     width: 270px;
     padding: 22px;
-    margin-top: -394px;
+    margin-top: -880px;
     margin-left: 65%;
-    margin-bottom: 28%;
+    margin-bottom: auto;
     background-color: white;
     border-width: 2px;
     border-style: solid;
@@ -163,9 +164,9 @@ div.aside-gallery {
     height: 150px;
     width: 270px;
     padding: 22px;
-    margin-top: -774px;
-    margin-left: 1000px;
-    margin-bottom: 500px;
+    margin-top: -780px;
+    margin-left: 65%;
+    margin-bottom: auto;
     background-color: white;
     border-width: 2px;
     border-style: solid;
@@ -296,4 +297,90 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+@media (max-width: 1390px) {
+    div.section-gallery {
+        margin-top: 22%;
+        margin-left: 22%;
+    }
+    div.aside-gallery {
+        width: 650px;
+        margin-top: -1030px;
+        margin-left: 22%;
+    }
+
+    div.section-contact {
+        margin-top: 22%;
+        margin-left: 22%;
+    }
+    div.aside-contact {
+        width: 650px;
+        margin-top: -860px;
+        margin-left: 22%;
+    }
+
+    div.section {
+        width: 650px;
+        margin-top: 22%;
+        margin-left: 22%;
+        margin-bottom: 200px;
+    }
+    div.aside {
+        width: 650px;
+        margin-top: -880px;
+        margin-left: 22%;
+        margin-bottom: auto;
+    }
+
+}
+
+@media (max-width: 1240px) {
+    div.section-gallery {
+        margin-top: 24%;
+    }
+    div.aside-gallery {
+        margin-top: -1010px;
+    }
+
+    div.section-contact {
+        margin-top: 24%;
+    }
+    div.aside-contact {
+        margin-top: -830px;
+    }
+
+    div.section {
+        margin-top: 24%;
+    }
+    div.aside {
+        margin-top: -850px;
+    }
+}
+
+@media (max-width: 1080px) {
+    div.section-gallery {
+        margin-top: 26%;
+        margin-left: 16%;
+    }
+    div.aside-gallery {
+        margin-left: 16%;
+    }
+
+    div.section-contact {
+        margin-left: 16%;
+    }
+    div.aside-contact {
+        margin-top: -820px;
+        margin-left: 16%;
+    }
+
+    div.section {
+        margin-left: 16%;
+    }
+    div.aside {
+        margin-top: -840px;
+        margin-left: 16%;
+
+    }
 }
